@@ -54,8 +54,8 @@ export default function Home() {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-white/20 text-white hover:bg-white/10 px-8 transition-all duration-200"
+              variant="ghost"
+              className="border border-white/20 text-white bg-transparent hover:bg-white/10 hover:text-white px-8 transition-all duration-200"
             >
               <a href={ZOOM_LINK} target="_blank" rel="noopener noreferrer">
                 <Video className="h-4 w-4 mr-2" />
@@ -163,8 +163,8 @@ export default function Home() {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-white/20 text-white bg-transparent hover:bg-white/10 transition-all duration-200"
+              variant="ghost"
+              className="border border-white/20 text-white bg-transparent hover:bg-white/10 hover:text-white transition-all duration-200"
             >
               <a href={ZOOM_LINK} target="_blank" rel="noopener noreferrer">
                 <Video className="h-4 w-4 mr-2" />
